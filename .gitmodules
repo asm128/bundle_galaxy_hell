@@ -1,0 +1,9 @@
+[submodule "zlib"]
+	path = zlib
+	url = https://github.com/asm128/zlib
+[submodule "gpk"]
+	path = gpk
+	url = https://github.com/asm128/gpk
+[submodule "gpk_games"]
+	path = gpk_games
+	url = https://github.com/asm128/gpk_games
