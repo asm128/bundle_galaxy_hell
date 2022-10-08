@@ -1,3 +1,4 @@
+git pull
 cd gpk
 git checkout master
 git pull
