@@ -1,16 +1,16 @@
-git pull
-cd gpk
-git checkout master
-git pull
-cd ..
-cd zlib
-git checkout master
-git pull
-cd ..
-cd gpk_games
-git checkout master
-git pull
-cd ..
-git add .
-git commit -m "Updated submodule heads"
+@echo off
+
+REM Array of repositories
+set "gpk_games_repos=gpk zlib gpk_games"
+
+REM Loop through each repository
+for %%i in (%gpk_games_repos%) do (
+    cd %%i
+    git checkout master
+    git pull
+    cd ..
+    git add %%i
+)
+
+git commit -m "Updated submodules to latest heads."
 git push
