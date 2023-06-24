@@ -7,3 +7,6 @@
 [submodule "gpk_games"]
 	path = gpk_games
 	url = https://github.com/asm128/gpk_games
+[submodule "gpk_data"]
+	path = gpk_data
+	url = https://github.com/asm128/gpk_data
