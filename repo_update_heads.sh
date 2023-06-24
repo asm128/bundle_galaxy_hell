@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Array of repositories
-repos=("gpk" "zlib" "gpk_games")
+repos=("gpk" "zlib" "gpk_games" "gpk_data")
 
 # Loop through each repository
 for repo in "${repos[@]}"
