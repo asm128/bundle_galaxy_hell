@@ -10,3 +10,6 @@
 [submodule "gpk_data"]
 	path = gpk_data
 	url = https://github.com/asm128/gpk_data
+[submodule "gpk_samples"]
+	path = gpk_samples
+	url = https://github.com/asm128/gpk_samples
